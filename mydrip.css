@@ -1,0 +1,232 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,462;1,462&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif; /* Rubik font for the entire website */
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4a90e2; /* modern blue */
+    color: white;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between; /* Align logo and nav to opposite sides */
+    align-items: center;
+    font-family: 'Rubik', sans-serif; /* Rubik font for header */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+header .logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Hero Section */
+.hero {
+    background: url('picc\ 2.jpg') no-repeat center center/cover;
+    color: white;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About and Contact Section */
+.about, .contact {
+    background-color: #FFA07A;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.about h3, .contact h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Products Section */
+.products {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+
+.products h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Shop Button */
+.shop-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+    background-color: #357ABD;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Founders Section */
+.founders-section {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.founders-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.founders-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.founder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.founder-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.founder-info {
+  max-width: 600px;
+}
+
+.founder-info h3 {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.founder-info p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+}
+/* Section Styling */
+section {
+  padding: 80px 20px; /* Add extra padding for spacing */
+  text-align: center;
+  background-color: #fff;
+}
+
+section#about, section#contact, section#founders {
+  padding: 100px 20px; /* Ensure there’s enough space for scrolling */
+}
+
+/* For other sections that might have less content */
+.hero {
+  padding: 100px 20px;
+}
+
+/* Rest of your styling remains the same */

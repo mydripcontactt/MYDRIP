@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buy Mark 1 - MyDRIP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="mydrip.css" />
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    header .logo {
+      font-size: 2.8rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    .buy-container {
+      max-width: 1000px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .buy-container img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .buy-details {
+      max-width: 550px;
+      padding: 20px;
+    }
+
+    .buy-details h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .buy-details p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #e94e77;
+      margin-bottom: 20px;
+    }
+
+    .buy-options select, .buy-options input {
+      padding: 10px;
+      font-size: 1rem;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+
+    .buy-buttons {
+      margin-top: 20px;
+    }
+
+    .buy-buttons button {
+      background-color: #4a90e2;
+      color: white;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .buy-buttons button:hover {
+      background-color: #357ABD;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    /* Product Gallery */
+    .product-gallery {
+      display: flex;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .product-gallery img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .product-gallery img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">MYDRIP</h1>
+    <nav>
+        <a href="mydrip.html#home">Home</a>
+        <a href="mydrip.html#about">About</a>
+        <a href="mydrip.html#products">Products</a>
+        <a href="mydrip.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="buy-container">
+    <img src="MARK_1.png" alt="Mark 1 Tshirt">
+
+    <div class="buy-details">
+      <h2>Oversized Tshirt - Mark 1</h2>
+      <p>Our Mark 1 Oversized Tshirt blends comfort with style, making it perfect for your casual outings or hanging out with friends. Made from premium fabric, it’s breathable and super soft!</p>
+      
+      <p class="price">₹799</p>
+
+      <div class="buy-options">
+        <label for="size">Select Size:</label>
+        <select id="size">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+          <option>XL</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+      </div>
+
+      <div class="buy-buttons">
+        <button class="add-cart">Add to Cart</button>
+        <button class="buy-now">Buy Now</button>
+      </div>
+
+      <div class="product-gallery">
+        <img src="MARK_1.png" alt="Mark 1 Thumbnail">
+        <img src="MARK_1_2.jpg" alt="Mark 1 Alternative Image">
+        <img src="MARK_1_3.jpg" alt="Mark 1 Alternative Image 2">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 myDRIP. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
