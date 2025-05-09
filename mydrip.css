@@ -17,7 +17,7 @@ body {
 /* Header Styling */
 header {
     background-color: #4a90e2; /* modern blue */
-    color: white;
+    color: black;
     padding: 25px 40px;
     display: flex;
     justify-content: space-between; /* Align logo and nav to opposite sides */
@@ -55,7 +55,7 @@ section {
 
 section h2 {
     font-size: 2rem;
-    color: #333;
+    color: white;
 }
 
 section p {
@@ -65,7 +65,7 @@ section p {
 
 /* Hero Section */
 .hero {
-    background: url('picc\ 2.jpg') no-repeat center center/cover;
+    background: url('picc7.jpg') no-repeat center center/cover;
     color: white;
     height: 800px;
     display: flex;
@@ -85,7 +85,7 @@ section p {
 
 /* About and Contact Section */
 .about, .contact {
-    background-color: #FFA07A;
+    background-color: blueviolet;
     margin: 20px auto;
     max-width: 800px;
     border-radius: 10px;
@@ -96,11 +96,15 @@ section p {
 .about h3, .contact h3 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: white;
+}
+#about p, #contact p {
+  color: white; /* Replace with your desired color */
 }
 
 /* Products Section */
 .products {
-    background-color: #f7f7f7;
+    background-color: lightcyan;
     padding: 40px 20px;
 }
 
@@ -140,7 +144,7 @@ section p {
     margin-top: 10px;
     padding: 10px 15px;
     background-color: #4a90e2;
-    color: white;
+    color: bisque;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
@@ -148,7 +152,7 @@ section p {
 }
 
 .shop-btn:hover {
-    background-color: #357ABD;
+    background-color: orange;
 }
 
 /* Footer Section */
