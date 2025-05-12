@@ -65,7 +65,9 @@ section p {
 
 /* Hero Section */
 .hero {
-    background: url('./picc7.jpg') no-repeat center center/cover;
+
+background-image: url("picc7.jpg");
+
     color: white;
     height: 800px;
     display: flex;
