@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MYDRIP — limited-run oversized streetwear.">
+    <title>
+      MYDRIP — Streetwear, considered.
+    </title>
+    <link rel="stylesheet" href="mydrip.css">
+  </head>
+  <body>
+    <!-- Site navigation -->
+    <header class="site-header">
+      <a class="brand" href="mydrip.html">
+        MY
+        <span>
+          DRIP
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#shop">
+          Shop
+        </a>
+        <a href="#about">
+          Our story
+        </a>
+        <a href="#contact">
+          Contact
+        </a>
+        <a class="cart-link" href="checkout.html">
+          Bag
+          <b class="cart-count" data-cart-count>
+            0
+          </b>
+        </a>
+      </nav>
+      <!-- This compact bag link only appears on small screens. -->
+      <a class="menu-button" href="checkout.html">
+        Bag (
+        <span data-cart-count>
+          0
+        </span>
+        )
+      </a>
+    </header>
+    <main>
+      <!-- Large introductory area -->
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            Independent streetwear / India
+          </p>
+          <h1>
+            Wear the moment. Own your lane.
+          </h1>
+          <p class="lede">
+            Limited-run oversized essentials made for the people who set their own pace.
+          </p>
+          <a class="button button-lime" href="#shop">
+            Shop the drop
+          </a>
+        </div>
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="MYDRIP streetwear collection"
+        >
+        </div>
+      </section>
+      <!-- Repeating announcement strip -->
+      <div class="ticker">
+        <span>
+          Limited drop — oversized essentials — made to be lived in —
+        </span>
+        <span>
+          Limited drop — oversized essentials — made to be lived in —
+        </span>
+      </div>
+      <!-- Product catalogue -->
+      <section class="section" id="shop">
+        <div class="section-head">
+          <h2>
+            The first drop.
+          </h2>
+          <p>
+            Three uncomplicated pieces. Cut oversized, designed for repeat wear.
+          </p>
+        </div>
+        <div class="product-grid">
+          <a class="product-card" href="buy.html">
+            <div class="product-image">
+              <span class="tag">
+                Mark 01
+              </span>
+              <img src="MARK_1.png" alt="MYDRIP Mark 01 oversized T-shirt">
+            </div>
+            <div class="product-meta">
+              <div>
+                Mark 01
+                <small>
+                  Oversized T-shirt
+                </small>
+              </div>
+              <div>
+                ₹799
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="buymark2.html">
+            <div class="product-image">
+              <span class="tag">
+                Mark 02
+              </span>
+              <img src="MARK_2_JI.png" alt="MYDRIP Mark 02 oversized T-shirt">
+            </div>
+            <div class="product-meta">
+              <div>
+                Mark 02
+                <small>
+                  Oversized T-shirt
+                </small>
+              </div>
+              <div>
+                ₹899
+              </div>
+            </div>
+          </a>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="tag">
+                Coming soon
+              </span>
+              <img src="mark_3.png" alt="A preview of the next MYDRIP T-shirt">
+            </div>
+            <div class="product-meta">
+              <div>
+                Mark 03
+                <small>
+                  Next release
+                </small>
+              </div>
+              <div>
+                —
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Brand story -->
+      <section class="section about" id="about">
+        <div class="about-grid">
+          <h2>
+            Built for everyday statements.
+          </h2>
+          <div>
+            <p>
+              MYDRIP makes wearable, considered streetwear for people who like their
+              wardrobe simple but never boring.
+            </p>
+            <p>
+              Every release is intentionally small. When it’s gone, it’s gone.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact details -->
+      <section class="section contact" id="contact">
+        <div class="contact-grid">
+          <h2>
+            Stay in the loop.
+          </h2>
+          <div>
+            <a href="mailto:mydripcontact@gmail.com">
+              mydripcontact@gmail.com
+            </a>
+            <a
+              href="https://instagram.com/mydripcontact"
+              target="_blank"
+              rel="noopener"
+            >
+              @mydripcontact
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>
+        © 2026 MYDRIP
+      </span>
+      <span>
+        Made in India
+      </span>
+    </footer>
+    <!-- JavaScript uses this box for small notifications, such as “added to bag”. -->
+    <div class="toast" role="status" aria-live="polite">
+    </div>
+    <script src="mydrip.js">
+    </script>
+  </body>
+</html>

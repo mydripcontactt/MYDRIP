@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      Checkout — MYDRIP
+    </title>
+    <link rel="stylesheet" href="mydrip.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="mydrip.html">
+        MY
+        <span>
+          DRIP
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="mydrip.html#shop">
+          Continue shopping
+        </a>
+        <a class="cart-link" href="checkout.html">
+          Bag
+          <b class="cart-count" data-cart-count>
+            0
+          </b>
+        </a>
+      </nav>
+    </header>
+    <main class="checkout">
+      <p class="eyebrow">
+        Secure checkout
+      </p>
+      <h1>
+        Your bag.
+      </h1>
+      <div class="checkout-grid">
+        <form class="checkout-form" data-checkout-form>
+          <label>
+            Email address
+            <input required type="email" autocomplete="email" placeholder="you@example.com">
+          </label>
+          <label>
+            Full name
+            <input required autocomplete="name" placeholder="Your name">
+          </label>
+          <label>
+            Delivery address
+            <input required autocomplete="street-address" placeholder="House no., street, area">
+          </label>
+          <label>
+            City
+            <input required autocomplete="address-level2" placeholder="City">
+          </label>
+          <label>
+            PIN code
+            <input required inputmode="numeric" autocomplete="postal-code" placeholder="000000">
+          </label>
+          <button class="button" data-checkout-button type="submit">
+            Proceed to payment
+          </button>
+          <p class="product-note">
+            Payments are encrypted and processed by our payment partner.
+          </p>
+        </form>
+        <aside class="summary">
+          <h2>
+            Order summary
+          </h2>
+          <div data-summary-items>
+          </div>
+          <div class="summary-row">
+            <span>
+              Subtotal
+            </span>
+            <strong data-subtotal>
+              ₹0
+            </strong>
+          </div>
+          <div class="summary-row">
+            <span>
+              Shipping
+            </span>
+            <span>
+              Calculated next
+            </span>
+          </div>
+          <div class="summary-row total">
+            <span>
+              Total
+            </span>
+            <strong data-total>
+              ₹0
+            </strong>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <span>
+        © 2026 MYDRIP
+      </span>
+      <span>
+        Need help? mydripcontact@gmail.com
+      </span>
+    </footer>
+    <div class="toast" role="status" aria-live="polite">
+    </div>
+    <script src="mydrip.js">
+    </script>
+  </body>
+</html>
